@@ -1,0 +1,27 @@
+import React from 'react'
+import { useState } from 'react'
+import {foods} from '../data'
+
+export const Menulist = () => {
+    const [menu, setMenu] = useState(foods)
+  return (
+    <div className='flex flex-wrap gap-4'>
+    {menu.map(({id,title,category,price,img,desc})=>
+        <div key={id} className="flex flex-col brp500:flex-row gap-4 basis-full brp900:basis-[calc(50%-20px)] border border-blue-800 p-3 rounded-2xl">
+            <div className='flex-1'>
+                <img className='w-full h-50 object-cover border-4 rounded-2xl border-white ' src={'images/'+img} alt={title}></img>
+            </div>
+            <div className='flex-1'>
+                <div className='flex justify-between text-amber-400  font-bold border-b border-b-amber-400 p-3'>
+                    <span className='capitalize'>{title}</span>
+                    <span>€{price}</span>
+                </div>
+                {desc}
+            </div>
+            
+        </div>
+        )}
+    </div>
+  )
+}
+
