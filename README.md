@@ -1,5 +1,5 @@
 # React -Ourmenu
 
-- [github repo](https://github.com/kardoslaszlo08-ctrl/ourmenu) 
+- [Github repo](https://github.com/kardoslaszlo08-ctrl/ourmenu) 
 
-- [netlify](https://ourmenureactproject.netlify.app/)
+- [Netlify](https://ourmenureactproject.netlify.app/)
