@@ -2,4 +2,4 @@
 
 - [github repo](https://github.com/kardoslaszlo08-ctrl/ourmenu) 
 
--[netlify](https://ourmenureactproject.netlify.app/)
+- [netlify](https://ourmenureactproject.netlify.app/)
