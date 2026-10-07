@@ -4,4 +4,4 @@
 
 - [Netlify](https://ourmenureactproject.netlify.app/)
 
-![Komponensek hierarchiája](/assets/komponensek.jpg "Komponensek")
+![Komponensek hierarchiája](src/assets/komponensek.jpg "Komponensek")
